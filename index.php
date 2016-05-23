@@ -50,7 +50,7 @@ function getAnnotation(Reflector $ref){
 }
 
 //获取function名称
-//writeGetUrlInfo();
+writeGetUrlInfo();
 
 if (preg_match("/\w+(?:$|(?=\?))/", $_SERVER["REQUEST_URI"], $matches)) {
 	$func = $matches[0];
